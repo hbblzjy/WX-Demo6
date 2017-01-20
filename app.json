@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/Component/Map/Map",
+    "pages/index/Component/Image/Image",
+    "pages/index/Component/Audio/Audio",
+    "pages/index/Component/Video/Video"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF0F5",
+    "navigationBarTitleText": "组件六介绍：媒体Media和地图Map",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#fbf9fe"
+  }
+}

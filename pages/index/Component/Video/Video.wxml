@@ -1,0 +1,11 @@
+<!--pages/index/Component/Video/Video.wxml-->
+<view class="viewTitle">
+    <text class="view-Name">Video视频</text>
+    <view class="lineView"></view>
+</view>
+<!--src="{{src}}":视频地址参数,前面是参数名名，后面是参数具体值-->
+<view class="section section_gap">
+    <view class="body-view" style="text-align: center;">
+        <video src="{{src}}"></video>
+    </view>
+</view>

@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="viewName" style="margin-top: 60px;">
+  <navigator url="Component/Image/Image">
+    <text class="view-Name">Image图片展示</text>
+  </navigator>
+</view>
+<view class="viewName" style="margin-top: 60px;">
+  <navigator url="Component/Audio/Audio">
+    <text class="view-Name">Audio音频展示</text>
+  </navigator>
+</view>
+<view class="viewName" style="margin-top: 60px;">
+  <navigator url="Component/Video/Video">
+    <text class="view-Name">Video视频展示</text>
+  </navigator>
+</view>
+<view class="viewName" style="margin-top: 60px;">
+  <navigator url="Component/Map/Map">
+    <text class="view-Name">Map地图展示</text>
+  </navigator>
+</view>

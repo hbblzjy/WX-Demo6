@@ -1,0 +1,20 @@
+<!--pages/index/Component/Image/Image.wxml-->
+<view class="viewTitle">
+    <text class="view-Name">Image图片</text>
+    <view class="lineView"></view>
+</view>
+<!--这里要注意,加载本地图片地址不要写错，“../”：表示当前文件所在的位置，
+然后添加图片所在的文件或文件夹地址-->
+<view class="section section_gap">
+    <view class="section__title">本地图片</view>
+    <view class="section__ctn">
+        <image class="image" src="../Resource(资源)/1.jpg" />
+    </view>
+</view>
+<!--如果加载网络图片，直接网络地址就可以-->
+<view class="section section_gap">
+    <view class="section__title">网络图片</view>
+    <view class="section__ctn">
+        <image class="image" src="https://image.healthmanage.cn/qImage/201608171634363931139.jpg" />
+    </view>
+</view>

@@ -1,0 +1,8 @@
+/* pages/index/Component/Image/Image.wxss */
+.section__ctn{
+    text-align: center;
+}
+.image{
+    width: 580rpx;
+    height: 208rpx;
+}

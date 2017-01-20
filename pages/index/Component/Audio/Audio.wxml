@@ -1,0 +1,9 @@
+<!--pages/index/Component/Audio/Audio.wxml-->
+<view class="viewTitle">
+    <text class="view-Name">Audio音频</text>
+    <view class="lineView"></view>
+</view>
+<!--设计音频展示样式-->
+<view class="section section_gap" style="text-align: center;">
+      <audio src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+</view>
